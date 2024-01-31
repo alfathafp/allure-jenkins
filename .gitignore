@@ -3,6 +3,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
@@ -20,6 +22,9 @@ target/
 .settings
 .springBeans
 .sts4-cache
+
+# Ignore Allure results folder
+allure-results/
 
 ### NetBeans ###
 /nbproject/private/
