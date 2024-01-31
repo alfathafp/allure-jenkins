@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+    <test name="MyTest">
+        <!-- Include classes or packages containing your tests -->
+        <classes>
+            <class name="org.example.TestCase1"/>
+            <class name="org.example.TestCase2"/>
+            <!-- Add more classes if needed -->
+        </classes>
+    </test>
+</suite>
