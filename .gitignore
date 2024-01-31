@@ -23,8 +23,8 @@ target/
 .springBeans
 .sts4-cache
 
-# Ignore Allure results folder
-allure-results/
+# Ignore all files in allure-results
+allure-results/*
 
 ### NetBeans ###
 /nbproject/private/
