@@ -3,7 +3,7 @@
     <test name="MyTest2">
         <!-- Include classes or packages containing your tests -->
         <classes>
-            <class name="org.example.TestCase3"></class>
+            <class name="org.example.TestCase3"/>
             <!-- Add more classes if needed -->
         </classes>
     </test>
