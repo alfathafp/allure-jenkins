@@ -1,9 +1,11 @@
 package org.example;
 
+import lombok.extern.slf4j.Slf4j;
 import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
 
+@Slf4j
 public class TestCase3 {
     @Test
     public void testMethod3(){
@@ -14,6 +16,6 @@ public class TestCase3 {
     @AfterSuite
     public void getUrlAllure(){
         String jenkinsURL = System.getenv("JENKINS_URL");
-        System.out.println("Jenkins URL: " + jenkinsURL);
+        log.info("Jenkins URL: " + jenkinsURL);
     }
 }
